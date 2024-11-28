@@ -1,0 +1,23 @@
+export const tradingData = [
+  { date: '5 Nov', coins: 12, winX2Plus: 3, winX2Less: 4, neutral: 2, dump: 3, gains: '+245%', winRate: '58.3%' },
+  { date: '6 Nov', coins: 8, winX2Plus: 2, winX2Less: 3, neutral: 2, dump: 1, gains: '+180%', winRate: '62.5%' },
+  { date: '7 Nov', coins: 15, winX2Plus: 4, winX2Less: 5, neutral: 3, dump: 3, gains: '+320%', winRate: '60.0%' },
+  { date: '8 Nov', coins: 10, winX2Plus: 3, winX2Less: 4, neutral: 1, dump: 2, gains: '+275%', winRate: '70.0%' },
+  { date: '9 Nov', coins: 14, winX2Plus: 5, winX2Less: 4, neutral: 2, dump: 3, gains: '+410%', winRate: '64.3%' },
+  { date: '10 Nov', coins: 11, winX2Plus: 4, winX2Less: 3, neutral: 2, dump: 2, gains: '+295%', winRate: '63.6%' },
+  { date: '11 Nov', coins: 13, winX2Plus: 3, winX2Less: 5, neutral: 3, dump: 2, gains: '+225%', winRate: '61.5%' },
+  { date: '12 Nov', coins: 9, winX2Plus: 2, winX2Less: 4, neutral: 1, dump: 2, gains: '+190%', winRate: '66.7%' },
+  { date: '13 Nov', coins: 16, winX2Plus: 6, winX2Less: 5, neutral: 2, dump: 3, gains: '+480%', winRate: '68.8%' },
+  { date: '14 Nov', coins: 12, winX2Plus: 4, winX2Less: 4, neutral: 2, dump: 2, gains: '+340%', winRate: '66.7%' },
+  { date: '15 Nov', coins: 10, winX2Plus: 3, winX2Less: 3, neutral: 2, dump: 2, gains: '+255%', winRate: '60.0%' },
+  { date: '16 Nov', coins: 15, winX2Plus: 5, winX2Less: 4, neutral: 3, dump: 3, gains: '+385%', winRate: '60.0%' },
+  { date: '17 Nov', coins: 11, winX2Plus: 3, winX2Less: 4, neutral: 2, dump: 2, gains: '+265%', winRate: '63.6%' },
+  { date: '18 Nov', coins: 13, winX2Plus: 4, winX2Less: 5, neutral: 2, dump: 2, gains: '+315%', winRate: '69.2%' },
+  { date: '19 Nov', coins: 9, winX2Plus: 2, winX2Less: 3, neutral: 2, dump: 2, gains: '+175%', winRate: '55.6%' },
+  { date: '20 Nov', coins: 14, winX2Plus: 5, winX2Less: 4, neutral: 3, dump: 2, gains: '+395%', winRate: '64.3%' },
+  { date: '21 Nov', coins: 12, winX2Plus: 4, winX2Less: 3, neutral: 2, dump: 3, gains: '+285%', winRate: '58.3%' },
+  { date: '22 Nov', coins: 10, winX2Plus: 3, winX2Less: 4, neutral: 1, dump: 2, gains: '+245%', winRate: '70.0%' },
+  { date: '23 Nov', coins: 15, winX2Plus: 5, winX2Less: 5, neutral: 2, dump: 3, gains: '+420%', winRate: '66.7%' },
+  { date: '24 Nov', coins: 11, winX2Plus: 3, winX2Less: 4, neutral: 2, dump: 2, gains: '+270%', winRate: '63.6%' },
+  { date: '25 Nov', coins: 13, winX2Plus: 4, winX2Less: 4, neutral: 3, dump: 2, gains: '+330%', winRate: '61.5%' }
+];

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: #22c55e;
+}
+
+.neon-text {
+  color: #22c55e;
+  text-shadow: 
+    0 0 5px #22c55e,
+    0 0 10px #22c55e,
+    0 0 20px #22c55e,
+    0 0 40px #22c55e;
+  animation: flicker 3s infinite alternate;
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: 
+      0 0 5px #22c55e,
+      0 0 10px #22c55e,
+      0 0 20px #22c55e,
+      0 0 40px #22c55e;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #022c22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22c55e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a;
+}
